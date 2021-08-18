@@ -1,0 +1,14 @@
+.user {
+    h1 {
+        color: red;
+    }
+}
+.userInfo {
+    margin-top: 20px;
+    li {
+        font-size: 18px;
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+}
